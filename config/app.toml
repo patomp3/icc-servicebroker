@@ -1,0 +1,17 @@
+# Application config file.
+errorcode0 = "Process Successful."
+errorcode800 = "Error while insert transaction."
+
+[development]
+port = "8000"
+
+[production]
+port = "8000"
+
+[collection]
+queueurl = "amqp://admin:admin@172.19.218.104:5672"
+queuename = "collection"
+
+[collection2]
+queueurl = "amqp://admin:admin@172.19.218.104:5672"
+queuename = "collection2"
